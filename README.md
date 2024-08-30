@@ -21,7 +21,7 @@ Since the solution uses the Divide and Conquer paradigm, its complexity uses the
 In our case, the time complexity is T = O(log_base_4(2^N)*K) = O(K*N) (the get_walsh function has O(N)).
 
 ### Problems with Walsh:
--> There were no problems that required difficult debugging, the solution was written in 2 hours.
+- There were no problems that required difficult debugging, the solution was written in 2 hours.
 
 ## Statistics
 It's easily noticeable that this problem can be solved with Greedy algorithms.
@@ -39,9 +39,9 @@ Since the solution uses the Greedy technique, the time complexity is O(27*N*log(
 The space complexity is O(N).
 
 ### Problems with Statistics:
--> There were problems with the time limit, initially I wrote a very complicated and inefficient 'compareTo' function.
--> Obviously, I read various documents (KMP and Z search algorithms) and solutions to similar problems (codeforces, infoarena).
--> Debugging was acceptable as the solution was written in Java (exceptions are handled quickly), not in C++.
+- There were problems with the time limit, initially I wrote a very complicated and inefficient 'compareTo' function.
+- Obviously, I read various documents (KMP and Z search algorithms) and solutions to similar problems (codeforces, infoarena).
+- Debugging was acceptable as the solution was written in Java (exceptions are handled quickly), not in C++.
 
 ## Prinel
 It's noticeable that the problem can be solved using the Dynamic Programming technique. Obviously, at first glance it looks a bit like the statement of the Knapsack problem.
@@ -60,9 +60,9 @@ The final part of the problem uses the 'knapsack_dp' function which implements t
 The last condition was used to avoid TLE. Also, the answer to the problem is in dp[N][K] (if K < sum_min_op_numbers).
 
 ### Problems with Prinel:
--> Problems with time limit, initially I didn't use memoization.
--> A lot of documentation was needed (geeks, stack), I also asked 2 female colleagues and a male colleague for some inspiration (I have inefficient ideas at the beginning).
--> Debugging was no longer trivial, at one point I had to use GDB + valgrind.
+- Problems with time limit, initially I didn't use memoization.
+- A lot of documentation was needed (geeks, stack), I also asked 2 female colleagues and a male colleague for some inspiration (I have inefficient ideas at the beginning).
+- Debugging was no longer trivial, at one point I had to use GDB + valgrind.
 
 ## Crypto
 Again, it's noticeable that the problem can be solved using the Dynamic Programming technique. At first glance, I thought of this problem from codeforces:
@@ -91,17 +91,12 @@ The final part deals with finding the largest 'i' with the property that maxCost
 The time complexity is O(N^2 + Q * N).
 
 ### Problems with Regele:
--> As with Crypto, finding the recurrence relation.
--> Debugging was quite simple.
+- As with Crypto, finding the recurrence relation.
+- Debugging was quite simple.
 
 ## References:
--> Geeks
--> StackOverflow
--> Codeforces
--> Infoarena
--> OCW
-
-Also, I got small ideas from a friend to improve my solutions.
-An interesting assignment.
-
-Catalin-Alexandru Ripanu
+- Geeks
+- StackOverflow
+- Codeforces
+- Infoarena
+- OCW
