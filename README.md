@@ -1,6 +1,4 @@
-# HW1_PA
-
-This document covers an Algorithmic homework assignment involving Divide and Conquer, Greedy, and Dynamic Programming techniques.
+## This document covers an Algorithmic Assignment involving Divide and Conquer, Greedy, and Dynamic Programming techniques
 
 ## Walsh
 
